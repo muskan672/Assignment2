@@ -1,0 +1,60 @@
+.nav{
+    height:100%;
+    width:0 ;
+    background-color: rgb(54, 50, 45);
+    padding-top:60px;
+    position:fixed;
+    z-index: 1;
+    top:0;
+    left:0;
+
+}
+.close{
+    position:absolute;
+    top:0;
+    
+  right: 25px;
+  margin-left: 50px;
+    font-size:36px;
+    width:0;
+}
+a{
+    padding:10px 10px,10px,20px;
+    font-size:20px;
+    text-decoration: none;
+    color:aliceblue;
+    display:block;
+}
+#menu-image{
+    width:15px;
+    position:fixed;
+}
+#cross-image{
+    width:10px;
+}
+#sweet-castle{
+    width:1000px;
+    height:500px;
+    padding:30px;
+    display:block; 
+    position:center;
+}
+#black{
+    background-color: rgb(30, 18, 18);
+    color:white;
+    margin:20px;
+    height:140px;
+}
+#images{
+    display:flex;
+    direction:row;
+    justify-content:space-evenly;
+    padding:30px;
+    width:100%;
+
+    flex-grow:2,1,1,1;
+}
+.cake{
+    width:24.6%;
+    size:auto;
+}
