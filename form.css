@@ -1,0 +1,63 @@
+body {
+    padding: 30pt;
+    background-color: whitesmoke;
+}
+
+#reset {
+    background-color: brown;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#submit {
+    background-color: rgb(35, 35, 208);
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
+
+.textfield input {
+    height: 15pt;
+    width: 100%;
+}
+
+.textfield.error input {
+    border-color: red;
+}
+
+.textfield.success small {
+    visibility: hidden;
+}
+
+.textfield small {
+    visibility: hidden;
+}
+
+
+
+.textfield.error small {
+    visibility: visible;
+    color: red;
+}
+
+.checkbox.success small {
+    visibility: hidden;
+}
+
+.checkbox.error small {
+    visibility: visible;
+    color: red;
+}
+
