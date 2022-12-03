@@ -258,3 +258,47 @@ h1, h2{
     border-radius: 10px;
     box-shadow: 5px 10px;
 }
+
+.textfield {
+    margin: 8px 0;
+    margin-left: 65px;
+        
+
+}
+
+input[type=text], input[type=password], input[type=number], select{
+    width: 95%;
+    align-self:center;
+    margin:8px 0;
+    border: 2px solid#ccc;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    
+   }
+
+input[type=checkbox]{
+    margin-left: 65px;
+        
+}
+button[type=submit]{
+    background-color: #2196f3;
+    padding: 10px;
+    text-align: center;
+    border-color:#2196f3;
+    margin: 8px 0;
+    margin-left: 65px;
+        
+
+}
+
+button[type=Reset]{
+    background-color: #f32121;
+    padding: 10px;
+    text-align: center;
+    border-color:#f32121;
+    margin: 8px 0;
+    
+        
+
+}

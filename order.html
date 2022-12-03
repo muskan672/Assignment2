@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Bansari Maharaja">
+    <link rel="stylesheet" type="text/css" href="bakery.css">
+    <script src="bakery.js" defer></script>
+    <title>form</title>
+</head>
+
+<body>
+    <header>
+
+        <div>
+
+            <nav id="navigate">
+
+                <div class="flex-container">
+                    <div id="Home"><a href="index.html"> Sweet Treat Bakery </a> </div>
+                    <div id="About"><a href="About_us.html">About us</a></div>
+                    <div id="Products"><a href="Menu.html"> Products </a> </div>
+                    <div id="OrderNow"><a href="order.html"> OrderNow </a></div>
+                    <!....<input type="text" placeholder="Search..">>
+                </div>
+
+
+            </nav>
+
+        </div>
+
+    </header>
+    <main class="formbody">
+        <div class="formcontainer">
+            <h3>Registration form</h3>
+            <hr>
+            <form name="signup" id = "myForm" action="order.php" method="get" onsubmit="return validate(); return false">
+
+
+                <div class="textfield">
+                    <label for="email">Email Address</label>
+                    <input type="text" name="email" id="email" placeholder="Email">
+
+                </div>
+
+                <div class="textfield">
+                    <label for="login">User Name</label>
+                    <input type="text" name="login" id="login" placeholder="User name">
+
+                </div>
+                <br>
+
+                <div class="textfield">
+                    <label for="pass">Password</label>
+                    <input type="password" name="pass" id="pass" placeholder="Password">
+
+                </div>
+                <br>
+                <div class="textfield">
+                    <label for="pass2">Re-type Password</label>
+                    <input type="password" id="pass2" placeholder="Password">
+
+                </div>
+                <br>
+
+                <div class="textfield">
+                    <label for="phoneNumber">Phone Number</label>
+                    <input type="number" id="phoneNumber" placeholder="Phone Number">
+
+               </div>
+
+               <div class = "textfield">
+                <label for = "orderdetails" >Order Detail</label>
+                <input type = "text" id = "orderdetails" placeholder="Order">
+            </div>
+
+                <button id="submit" type="submit">Sign-Up</button>
+                <button id="reset" type="reset">Reset</button>
+
+
+            </form>
+        </div>
+    </main>
+
+</body>
+
+</html>
