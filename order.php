@@ -1,5 +1,6 @@
-<?php include 'databse.php; ?>
-<!DOCTYPE html>
+<?php include 'database.php';?>
+
+!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -13,7 +14,7 @@
 
 <body>
     <header>
-
+    
         <div>
 
             <nav id="navigate">
@@ -30,7 +31,7 @@
             </nav>
 
         </div>
-
+        
     </header>
     <main class="formbody">
         <div class="formcontainer">
